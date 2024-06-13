@@ -3,7 +3,7 @@
 	"id": "dye_depot_c",
 	"version": "${version}",
 	"name": "Dye Depot Compats",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A compatibility mod for Dye Depot!",
 	"authors": [
 		"Paul Marmet"
 	],
