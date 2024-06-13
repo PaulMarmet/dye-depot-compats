@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "comforts:sleeping_bag_verdant",
+      "comforts:sleeping_bag_to_verdant"
+    ]
+  },
+  "criteria": {
+    "has_verdant_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["dye_depot:verdant_wool"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "comforts:sleeping_bag_verdant"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_verdant_wool",
+      "has_the_recipe"
+    ]
+  ]
+}

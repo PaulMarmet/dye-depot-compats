@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "comforts:sleeping_bag_dyed",
+  "ingredients": [
+    {
+      "tag": "comforts:sleeping_bags"
+    },
+    {
+      "item": "dye_depot:maroon_dye"
+    }
+  ],
+  "result": {
+    "item": "comforts:sleeping_bag_maroon"
+  }
+}

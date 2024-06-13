@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "comforts:hammock_olive",
+      "comforts:hammock_to_olive"
+    ]
+  },
+  "criteria": {
+    "has_olive_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["dye_depot:olive_wool"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "comforts:hammock_olive"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_olive_wool",
+      "has_the_recipe"
+    ]
+  ]
+}

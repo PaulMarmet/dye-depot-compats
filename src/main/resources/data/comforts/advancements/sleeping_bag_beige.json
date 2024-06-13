@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "comforts:sleeping_bag_beige",
+      "comforts:sleeping_bag_to_beige"
+    ]
+  },
+  "criteria": {
+    "has_beige_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["dye_depot:beige_wool"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "comforts:sleeping_bag_beige"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_beige_wool",
+      "has_the_recipe"
+    ]
+  ]
+}

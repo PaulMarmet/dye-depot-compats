@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "comforts:sleeping_bag_coral",
+      "comforts:sleeping_bag_to_coral"
+    ]
+  },
+  "criteria": {
+    "has_coral_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["dye_depot:coral_wool"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "comforts:sleeping_bag_coral"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_coral_wool",
+      "has_the_recipe"
+    ]
+  ]
+}

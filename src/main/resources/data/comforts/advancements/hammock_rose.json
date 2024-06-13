@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "comforts:hammock_rose",
+      "comforts:hammock_to_rose"
+    ]
+  },
+  "criteria": {
+    "has_rose_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["dye_depot:rose_wool"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "comforts:hammock_rose"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_rose_wool",
+      "has_the_recipe"
+    ]
+  ]
+}
