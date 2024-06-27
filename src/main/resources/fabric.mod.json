@@ -8,15 +8,14 @@
 		"Paul Marmet"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/PaulMarmet/dye-depot-compats"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/dye_depot_c/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.paulm.DyeDepotCompats"
+			"net.pm.DyeDepotCompats"
 		]
 	},
 	"mixins": [

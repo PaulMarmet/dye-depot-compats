@@ -1,4 +1,4 @@
-package net.paulm;
+package net.pm;
 
 import net.fabricmc.api.ModInitializer;
 
